@@ -1,4 +1,37 @@
 #TodoProject
+        Todo:
+        
+        Give the application a name of your choice
+        As a user, I want to add new employee to my company
+        Create an HTML form to add new employee
+        All the fields should be properly validated before adding
+        The validation errors should be displayed properly
+        The form should have a good UI and UX
+        As a user, I want to add multiple employees at once by upload a CSV file
+        Create an HTML form to select the CSV file
+        The form should support drag and drop file upload
+        The validation errors should be displayed properly
+        The form should have a good UI and UX
+        The CSV file should contain at least 3 columns: first name, last name, email address.
+        Ignore any other columns that might exist in the CSV
+        The application should add all the valid lines of the CSV file in the database as employees. For example: if the CSV file has 10 lines where line 3 is missing first name           and line 7 has invalid email address, I want to see 8 employees added to my company by skipping these 2 lines.
+        After adding the employees from the CSV file, it should display how many employees were added and how many failed.
+        It’s not necessary to display the CSV lines that contain errors.
+        As a user, I want to see all the employees of the company
+        Create a table that lists all the employees added
+        The list should display 5 employees at a time
+        There should be pagination buttons below to go to previous/next pages.
+        The table should have a good UI and UX
+        As a user, I want to send email to one or more employees at a time from the application
+        From the table, I want to select employees using checkbox
+        Create an HTML form to compose email
+        The form should contain two fields: Subject, Body
+        The validation errors should be displayed properly
+        The form should have a good UI and UX
+        It’s not needed to send real emails. Using https://mailtrap.io or similar service will work just fine
+
+
+
 ![tech1](https://user-images.githubusercontent.com/57281383/132251358-165dd645-37d8-431e-9abe-23f50029c391.PNG)
 ![tech2](https://user-images.githubusercontent.com/57281383/132251364-ad6cd7da-1044-4203-b9a6-f56e769bddaa.PNG)
 ![tech3](https://user-images.githubusercontent.com/57281383/132251366-db9e9cdb-bfb2-4e4c-b631-d21502e2b81e.PNG)
